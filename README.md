@@ -1,4 +1,8 @@
+# README.md
 
+## Usage and background
+
+For background see Confluence pages [Log Analysis] (https://tools.lib.umich.edu/confluence/display/HAT/Log+Analysis)  and for usage examples see [Example of "interesting sessions" from click logs] (https://tools.lib.umich.edu/confluence/pages/viewpage.action?pageId=84934715)
 
 
 ## Files
