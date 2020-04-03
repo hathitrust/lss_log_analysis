@@ -13,3 +13,7 @@ For background see Confluence pages [Log Analysis] (https://tools.lib.umich.edu/
   * Order of fields output and choice of fields to output set in __DATA__ section
 * process_cgi.pl
   * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl
+* parseJSON_logs.pl
+  *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line.  Note this was based on an earlier log program and needs a rewrite
+
+## TODO:   Write down location of the app logs that are the one json per line files
