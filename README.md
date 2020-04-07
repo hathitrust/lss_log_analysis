@@ -2,7 +2,7 @@
 
 ## Usage and background
 
-For background see Confluence pages [Log Analysis] (https://tools.lib.umich.edu/confluence/display/HAT/Log+Analysis)  and for usage examples see [Example of "interesting sessions" from click logs] (https://tools.lib.umich.edu/confluence/pages/viewpage.action?pageId=84934715)
+For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/confluence/display/HAT/Log+Analysis)  and for usage examples see [Example of "interesting sessions" from click logs(https://tools.lib.umich.edu/confluence/pages/viewpage.action?pageId=84934715)
 
 
 ## Files
@@ -14,6 +14,6 @@ For background see Confluence pages [Log Analysis] (https://tools.lib.umich.edu/
 * process_cgi.pl
   * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl
 * parseJSON_logs.pl
-  *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line.  Note this was based on an earlier log program and needs a rewrite
+  *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
 
-## TODO:   Write down location of the app logs that are the one json per line files
+#
