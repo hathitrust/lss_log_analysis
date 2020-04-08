@@ -17,6 +17,8 @@ For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/c
   *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
 * parseNewPT.pl
   * Program to parse pt logs (not the json acces logs).
+* parseQueryLogsNew.pl
+  * Program to parse ls logs.
   
   
 
