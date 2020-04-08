@@ -15,5 +15,12 @@ For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/c
   * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl
 * parseJSON_logs.pl
   *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
+* parseNewPT.pl
+  * Program to parse pt logs (not the json acces logs).
+  
+  
 
-#
+## General conventions
+Most of the programs parse the log files and then have a @fields_wanted array that controls what fields are output and their order. Most of them output tsv files with "NA"s for empty fields.  This format is for ease of importing into R or other datamining software. Note that  the output of parseClicklogs.pl needs to be run through clicklog2tsv.pl to provide tab delimieted output and to specify the order of the desired fields.
+
+Many of the programs have commented out quick hacks for improving efficiency if you want to just extract one field.
