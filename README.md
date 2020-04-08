@@ -6,19 +6,22 @@ For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/c
 
 
 ## Files
-* parseClicklog.pl. 
-  * parses json line files from ls application
-* clicklog2tsv.pl
-  * converts output of parseClicklog.pl to tsv file with header listing fields.  
-  * Order of fields output and choice of fields to output set in __DATA__ section
-* process_cgi.pl
-  * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl
+* files for parsing HT full-text search logs "ls"
+  * parseQueryLogsNew.pl
+    * Program to parse ls logs (not JSON not click logs).
+  * parseClicklog.pl. 
+    * parses json line files from ls application
+  * clicklog2tsv.pl
+    * converts output of parseClicklog.pl to tsv file with header listing fields.  
+    * Order of fields output and choice of fields to output set in __DATA__ section
+  * process_cgi.pl
+    * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl and parseQueryLogsNew.pl
+
+
 * parseJSON_logs.pl
   *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
 * parseNewPT.pl
   * Program to parse pt logs (not the json acces logs).
-* parseQueryLogsNew.pl
-  * Program to parse ls logs.
   
   
 
