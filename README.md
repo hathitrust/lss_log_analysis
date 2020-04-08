@@ -6,7 +6,7 @@ For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/c
 
 
 ## Files
-* files for parsing HT full-text search logs "ls"
+* Programs for parsing HT full-text search logs "ls"
   * parseQueryLogsNew.pl
     * Program to parse ls logs (not JSON not click logs).
   * parseClicklog.pl. 
@@ -17,11 +17,11 @@ For background see Confluence pages [Log Analysis](https://tools.lib.umich.edu/c
   * process_cgi.pl
     * General program for pulling out cgi parameters from a get URL sent to a CGI program.  Required by parseClicklog.pl and parseQueryLogsNew.pl
 
-
-* parseJSON_logs.pl
-  *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
-* parseNewPT.pl
-  * Program to parse pt logs (not the json acces logs).
+* Programs for parsing other logs
+  * parseJSON_logs.pl
+    *  Program to parse application logs roger created in attempt to unify logging.  These logs contain one json document per line and are in /htapps/babel/logs/access.  Note this program was a quick and dirty modification to  an earlier log program and needs a rewrite
+  * parseNewPT.pl
+    * Program to parse pt logs (not the json acces logs).
   
   
 
